@@ -43,7 +43,7 @@
    
 
    <div class="mycolor col-xs-12 col-md-6">
-   <h2>Weakly Specials</h2>
+   <h2>Weekly Specials</h2>
    <p><b>Monday:</b> Margarita Monday! Enjoy one margarita, get the second one free!</p>
    <p><b>Tuesday:</b> Taco Tuesday! All taco meals are half price!</p>
    <p><b>Wednesday:</b> Kids eat for free!</p>
