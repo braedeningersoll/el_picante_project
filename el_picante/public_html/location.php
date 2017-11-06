@@ -25,37 +25,7 @@
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-
-            <!-- Three line "hamburger" icon for the collapsed navigation -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <!-- Title on nav bar -->
-          <a class="navbar-brand" href="#">El Picante</a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li class="active"><a href="location.html">Location</a></li>
-            <li><a href="hours.html">Hours</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about_us.html">About</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <?php include '../resources/navigation.php'; ?>
 
  <!-- Main content -->
     <div class="container">
@@ -74,9 +44,7 @@
     <a href="https://www.google.com/maps/place/123+Fake+Dr,+Luray,+VA+22835/@38.7061942,-78.5086935,17z/data=!3m1!4b1!4m5!3m4!1s0x89b4525bc2304f89:0xef386d205eb572a4!8m2!3d38.70619!4d-78.5065048"> 123 Fake Dr. Luray, VA 22835</a>  
     </section>
 
-    <footer>
-    <p> &copy;2017, El Picante logos and materials.</p>
-    </footer>
+    <?php include '../resources/footer.php'; ?>
 
     </div>
     </div>
